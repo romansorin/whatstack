@@ -21,21 +21,7 @@ class Header extends Component {
                                 alt="Bulma: a modern CSS framework based on Flexbox"
                             />
                         </Navbar.Item>
-                        <Navbar.Burger
-                            active={this.state.open}
-                            onClick={() => {
-                                this.setState(state => ({
-                                    open: !state.open
-                                }))
-                            }
-                            }
-                        />
                     </Navbar.Brand>
-                    <Navbar.Menu active={this.state.open}>
-                        <Navbar.Container position="end">
-                            <Navbar.Item className="header-links" href="#">FAQ</Navbar.Item>
-                        </Navbar.Container>
-                    </Navbar.Menu>
                 </Container>
             </Navbar>
         );
