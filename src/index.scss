@@ -1,6 +1,8 @@
 @import "variables";
+@import "~react-bulma-components/src/index.sass";
 
-body {
+.App {
     background: $background-primary;
     color: $text-primary;
+    min-height: 100vh;
 }
