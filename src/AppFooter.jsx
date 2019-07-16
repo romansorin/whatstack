@@ -5,7 +5,7 @@ import "./footer.scss";
 class AppFooter extends Component {
     render() {
         return (
-            <Footer>
+            <Footer renderAs="footer">
                 <Container>
                     <Content>
                         <p>

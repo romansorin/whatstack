@@ -12,11 +12,23 @@
     color: $text-primary;
 }
 
-#landing-page-heading-accented {
-    color: $accent-primary;
-}
 
-#landing-page-heading {
-    font-size: 6rem;
-    font-family: $font-primary;
+.landing-page {
+    .title {
+        font-size: 6rem;
+        font-family: $font-primary;
+    }
+
+    .subtitle {
+        padding-top: 20px;
+    }
+
+    #landing-page-heading-accented {
+        color: $accent-primary;
+    }
+
+    .coming-soon-btn {
+        margin-top: 70px;
+        padding: 1.5rem 3.5rem;
+    }
 }

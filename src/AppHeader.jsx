@@ -11,19 +11,21 @@ class Header extends Component {
 
     render() {
         return (
-            <Navbar className="header">
-                <Container>
-                    <Navbar.Brand>
-                        <Navbar.Item renderAs="a" href="/">
-                            <img
-                                src={logo}
-                                className="header-logo"
-                                alt="Bulma: a modern CSS framework based on Flexbox"
-                            />
-                        </Navbar.Item>
-                    </Navbar.Brand>
-                </Container>
-            </Navbar>
+            <header>
+                <Navbar className="header">
+                    <Container>
+                        <Navbar.Brand>
+                            <Navbar.Item renderAs="a" href="/">
+                                <img
+                                    src={logo}
+                                    className="header-logo"
+                                    alt="Bulma: a modern CSS framework based on Flexbox"
+                                />
+                            </Navbar.Item>
+                        </Navbar.Brand>
+                    </Container>
+                </Navbar>
+            </header>
         );
     }
 }
