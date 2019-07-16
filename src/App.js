@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
 import AppFooter from './AppFooter';
-import Header from "./Header";
+import AppHeader from "./AppHeader";
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <AppHeader />
       <AppFooter />
     </div>
   );
