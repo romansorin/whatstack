@@ -1,28 +1,43 @@
 import React, { Component } from 'react';
-import { Level, Heading, Section, Container, Image } from 'react-bulma-components/full';
+import { Navbar, Container } from 'react-bulma-components/full';
 import logo from './logo.svg';
 import './header.scss';
 
 class Header extends Component {
+    constructor() {
+        super();
+        this.state = { open: false };
+    }
+
     render() {
         return (
-            <Section renderAs="header">
-                <Container fluid>
-                    <Level renderAs="nav">
-                        <Level.Side align="left">
-                            <Level.Item>
-                                <Image src={logo} />
-                            </Level.Item>
-                        </Level.Side>
-                        <Level.Side align="right">
-                            <Level.Item>
-                                <a href="https://www.romansorin.com" className="header-links">FAQ</a>
-                            </Level.Item>
-                        </Level.Side>
-                    </Level>
+            <Navbar className="header">
+                <Container>
+                    <Navbar.Brand>
+                        <Navbar.Item renderAs="a" href="/">
+                            <img
+                                src={logo}
+                                className="header-logo"
+                                alt="Bulma: a modern CSS framework based on Flexbox"
+                            />
+                        </Navbar.Item>
+                        <Navbar.Burger
+                            active={this.state.open}
+                            onClick={() => {
+                                this.setState(state => ({
+                                    open: !state.open
+                                }))
+                            }
+                            }
+                        />
+                    </Navbar.Brand>
+                    <Navbar.Menu active={this.state.open}>
+                        <Navbar.Container position="end">
+                            <Navbar.Item className="header-links" href="#">FAQ</Navbar.Item>
+                        </Navbar.Container>
+                    </Navbar.Menu>
                 </Container>
-            </Section>
-
+            </Navbar>
         );
     }
 }

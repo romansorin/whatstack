@@ -1,9 +1,21 @@
 @import "variables";
 
+.header {
+    background-color: transparent;
+    padding-top: 1.5rem;
+}
+
 .header-links {
     font-family: $font-primary;
     font-weight: $weight-regular;
     font-size: 22px;
     color: $text-primary !important;
     letter-spacing: 1px;
+    &:hover {
+        background-color: transparent !important;
+    }
+}
+
+.header-logo {
+    max-height: none !important;
 }
