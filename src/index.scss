@@ -6,3 +6,17 @@
     color: $text-primary;
     min-height: 100vh;
 }
+
+.title,
+.subtitle {
+    color: $text-primary;
+}
+
+#landing-page-heading-accented {
+    color: $accent-primary;
+}
+
+#landing-page-heading {
+    font-size: 6rem;
+    font-family: $font-primary;
+}
