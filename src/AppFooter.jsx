@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Footer, Container, Content } from 'react-bulma-components/src/index';
+import { Footer, Container, Content } from 'react-bulma-components/dist/index';
 import "./footer.scss";
 
 class AppFooter extends Component {
