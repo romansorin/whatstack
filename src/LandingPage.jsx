@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { Section, Container, Heading, Hero, Columns, Button } from 'react-bulma-components/dist/index';
+import Container from 'react-bulma-components/lib/components/container';
+import Section from 'react-bulma-components/lib/components/section';
+import Heading from 'react-bulma-components/lib/components/heading';
+import Hero from 'react-bulma-components/lib/components/hero';
+import Columns from 'react-bulma-components/lib/components/columns';
+import Button from 'react-bulma-components/lib/components/button';
+
 
 class LandingPage extends Component {
     render() {

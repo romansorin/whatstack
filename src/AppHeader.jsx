@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Container } from 'react-bulma-components/dist/index';
+import Navbar from 'react-bulma-components/lib/components/navbar';
+import Container from 'react-bulma-components/lib/components/container';
+
+
 import logo from './logo.svg';
 import './header.scss';
 
