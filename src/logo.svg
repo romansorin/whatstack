@@ -16,7 +16,7 @@
         </g>
         <path id="Path_1" data-name="Path 1" d="M7196.271,7246.795a10.07,10.07,0,0,1,12.84-6.157c4.039,1.42,7.532,4.708,6.729,9.514s-7.955,5.069-9.222,9.8" transform="translate(-7178.812 -7228.688)" fill="none" stroke="#583fcf" stroke-miterlimit="10" stroke-width="1"/>
       </g>
-      <text id="whatstack" transform="translate(7261.489 7275.398)" fill="#583fcf" font-size="30" font-family="Muli-Regular, Muli"><tspan x="0" y="0">what</tspan><tspan y="0" fill="#eee">stack</tspan></text>
+      <text id="whatstack" transform="translate(7261.489 7275.398)" fill="#583fcf" font-size="30"><tspan x="0" y="0">what</tspan><tspan y="0" fill="#eee">stack</tspan></text>
     </g>
   </g>
 </svg>
