@@ -5,11 +5,6 @@ import Container from 'react-bulma-components/lib/components/container';
 import logo from './assets/images/logo.svg';
 
 class Header extends Component {
-    constructor() {
-        super();
-        this.state = { open: false };
-    }
-
     render() {
         return (
             <header>
