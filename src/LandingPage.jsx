@@ -24,7 +24,7 @@ class LandingPage extends Component {
                                     </Heading>
                                 </Columns.Column>
                                 <Columns.Column size="half" offset="one-quarter">
-                                    <Button className="coming-soon-btn has-text-weight-semibold" isStatic={true} rounded={false}>
+                                    <Button className="coming-soon-btn has-text-weight-semibold" isStatic={true}>
                                         Coming Soon
                                     </Button>
                                 </Columns.Column>
