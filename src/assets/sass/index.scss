@@ -34,8 +34,18 @@
         color: $accent-primary;
     }
 
-    .coming-soon-btn {
+    .get-started-btn {
         margin-top: 70px;
-        padding: 1.5rem 3.5rem;
+        height: auto;
+        padding: .75rem 3.5rem;
+        transition: .2s ease;
+
+        &:hover {
+            background-color: $accent-primary;
+            color: white;
+            border-color: $accent-primary;
+            box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.25);
+            transform: translateY(-2px);
+        }
     }
 }
